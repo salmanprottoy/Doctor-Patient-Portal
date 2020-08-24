@@ -9,7 +9,7 @@ body{
 #nav-bar{
     position: sticky;
     top: 0;
-    z-index: 10px;
+    z-index: 10;
 }
 .navbar{
     background-color: #00BFA6;
@@ -93,6 +93,7 @@ body{
 #services .btn-primary{
     padding: 8px 25px;
     border-radius: 20px;
+    border: none;
     background-color: #00BFA6;
 }
 /*----------------about us----------------*/
