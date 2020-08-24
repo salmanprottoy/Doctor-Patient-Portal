@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+.navbar{
+    background-color: #00BFA6;
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 40px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #ffffff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #ffffff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+/*----------------banner-------------------*/
+#banner{
+    background-color: #00BFA6;
+    color: #ffffff;
+    padding-top: 5%;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.heart_img{
+    height: 200%;
+    width: 120%;
+    margin-top: -100px;
+   
+   
+}
+.bottom-img{
+    width: 100%;
+}
