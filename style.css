@@ -101,17 +101,7 @@
     transform: translateY(10px);
 }
 
-#services .btn-primary{
 
-    padding: 8px 25px;
-    border-radius: 20px;
-    border: none;
-    background-color: #00BFA6;
-}
-
-.container button:hover{
-    background-color: #049985;
-}
 /*----------------about us----------------*/
 #about-us{
     padding-bottom: 50px;
@@ -157,8 +147,9 @@
 
 /*--------------footer-------------*/
 #footer{
-    background-color: #00BFA6;
+    background-color:#00BFA6;
     color: #ffffff;
+    padding-top: 40px;
 }
 .footer-img{
     width: 100%;
