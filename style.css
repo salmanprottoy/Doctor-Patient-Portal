@@ -1,11 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 *
 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: sans-serif;
+body,
+input {
+  font-family: "Poppins", sans-serif;
 }
 #nav-bar{
     position: sticky;
@@ -118,3 +121,5 @@ body{
     width: 100%;
     margin-top: 30px;
 }
+
+/*----------------Login-Sign up----------------*/
