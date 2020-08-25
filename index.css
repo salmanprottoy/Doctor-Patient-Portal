@@ -122,3 +122,49 @@ body{
     width: 100%;
     margin-top: 30px;
 }
+/*----------------------testimonial-----------------*/
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #00BFA6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-review{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*-------------------social-media-----------------*/
+#social-media{
+    background: #e0e4e3;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icon img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+/*--------------footer-------------*/
+#footer{
+    background-color: #00BFA6;
+    color: #ffffff;
+}
+.footer-img{
+    width: 100%;
+}
