@@ -153,6 +153,7 @@ body{
     margin-bottom: 30px;
 }
 .social-icon img{
+    
     width: 60px;
     transition: 0.5s;
 }
@@ -167,4 +168,18 @@ body{
 }
 .footer-img{
     width: 100%;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    background-color: #049985;
 }
