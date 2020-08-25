@@ -1,3 +1,12 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 *
@@ -9,11 +18,14 @@
 body,
 input {
   font-family: "Poppins", sans-serif;
+
 }
 #nav-bar{
     position: sticky;
     top: 0;
-    z-index: 10;
+
+    z-index: 1;
+
 }
 .navbar{
     background-color: #00BFA6;
@@ -32,6 +44,13 @@ input {
     float: right;
     text-align: left;
 }
+
+.navbar-nav li a:hover{
+    background-color: #049985;
+    border-radius: 50px;
+
+}
+
 .fa-bars{
     color: #ffffff;
     font-size: 30px !important;
@@ -96,11 +115,17 @@ input {
     display: block;
     transform: translateY(10px);
 }
+
 #services .btn-primary{
+
     padding: 8px 25px;
     border-radius: 20px;
     border: none;
     background-color: #00BFA6;
+}
+
+.container button:hover{
+    background-color: #049985;
 }
 
 /*----------------about us----------------*/
@@ -122,4 +147,68 @@ input {
     margin-top: 30px;
 }
 
+/*----------------------testimonial-----------------*/
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #00BFA6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-review{
+    display: inline-block;
+    font-size: 12px;
+}
+
+/*-------------------social-media-----------------*/
+#social-media{
+    background: #e0e4e3;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icon img{
+    
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+/*--------------footer-------------*/
+#footer{
+    background-color: #00BFA6;
+    color: #ffffff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    background-color: #049985;
+}
+
+
 /*----------------Login-Sign up----------------*/
+
