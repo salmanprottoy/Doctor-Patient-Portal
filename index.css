@@ -9,7 +9,7 @@ body{
 #nav-bar{
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 1;
 }
 .navbar{
     background-color: #00BFA6;
@@ -27,6 +27,11 @@ body{
     font-weight: 600;
     float: right;
     text-align: left;
+}
+.navbar-nav li a:hover{
+    background-color: #049985;
+    border-radius: 50px;
+
 }
 .fa-bars{
     color: #ffffff;
@@ -90,11 +95,14 @@ body{
     display: block;
     transform: translateY(10px);
 }
-#services .btn-primary{
+.container button{
     padding: 8px 25px;
     border-radius: 20px;
     border: none;
     background-color: #00BFA6;
+}
+.container button:hover{
+    background-color: #049985;
 }
 /*----------------about us----------------*/
 #about-us{
