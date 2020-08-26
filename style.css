@@ -1,3 +1,12 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 *
@@ -11,6 +20,7 @@ input {
   font-family: "Poppins", sans-serif;
 
 }
+
 #nav-bar{
     position: sticky;
     top: 0;
@@ -107,17 +117,6 @@ input {
     transform: translateY(10px);
 }
 
-#services .btn-primary{
-
-    padding: 8px 25px;
-    border-radius: 20px;
-    border: none;
-    background-color: #00BFA6;
-}
-
-.container button:hover{
-    background-color: #049985;
-}
 
 /*----------------about us----------------*/
 #about-us{
@@ -159,34 +158,21 @@ input {
 }
 
 /*-------------------social-media-----------------*/
-#social-media{
-    background: #e0e4e3;
-    padding: 100px 0;
-}
-#social-media p{
-    font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-.social-icon img{
-    
-    width: 60px;
-    transition: 0.5s;
-}
-.social-icon a:hover img{
-    transform: translateY(-10px);
-}
+
+
 
 /*--------------footer-------------*/
 #footer{
-    background-color: #00BFA6;
+    background-color:#00BFA6;
     color: #ffffff;
+    padding-top: 40px;
 }
 .footer-img{
     width: 100%;
 }
 .footer-box img{
     width: 120px;
+    transition: 0.5s;
     margin-bottom: 20px;
 }
 .footer-box .fa{
@@ -199,7 +185,22 @@ input {
     border-radius: 5px;
     background-color: #049985;
 }
-
+.social-icon img{
+    
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+hr{
+    background-color: #ffffff ;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
 
 /*----------------Login-Sign up----------------*/
 
