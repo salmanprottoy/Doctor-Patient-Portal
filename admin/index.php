@@ -5,6 +5,8 @@
 		<title>Admin Portal</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 	</head>
 	<body>
@@ -61,6 +63,16 @@
 						<a href="#patient" class="menu-btn">
 						<i class="fa fa-user-plus" aria-hidden="true""></i><span>Patient</span>
 						</a>
+					</li>
+					<li class="item" id="messages">
+						<a href="#messages" class="menu-btn">
+						<i class="material-icons">airline_seat_individual_suite</i><span> Patient<!--<i class="fas fa-chevron-down drop-down"></i>--></span>
+						</a>
+						<!--<div class="sub-menu">
+							<a href="#"><i class="fas fa-envelope"></i><span>New</span></a>
+							<a href="#"><i class="fas fa-envelope-square"></i><span>Sent</span></a>
+							<a href="#"><i class="fas fa-exclamation-circle"></i><span>Spam</span></a>
+						</div>-->
 					</li>
 					<li class="item">
 						<a href="#" class="menu-btn">
