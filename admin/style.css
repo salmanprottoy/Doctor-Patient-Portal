@@ -226,3 +226,81 @@ body{
   height: 200px;
   border-radius: 50%;
 }
+.wrapper .main-container .adminprofile .ad{
+  background: #fff;
+}
+.wrapper .main-container  .adminprofile{
+  background: #fff;
+  height: 100%;
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  text-align: center;
+  padding:  10px;
+  margin: 20px;
+  border-right: 1px solid #000;
+}
+.wrapper .main-container .adminprofile .adminprofilepic{
+  width: 30%;
+  border-right: 2px solid black;
+  margin: 50px 0;
+}
+
+.wrapper .main-container .adminprofile div{
+  margin: 0 20px;
+  display: block;
+}
+.wrapper .main-container .adminprofile .adminprofilepic img{
+  margin-bottom: 20px;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  position: relative;
+  
+}
+.wrapper .main-container .adminprofile .adminprofileinfo{
+  width: auto;
+}
+.wrapper .main-container .adminprofile .adminprofileinfo .table-box{
+  margin: 50px auto;
+ 
+}
+.wrapper .main-container .adminprofile .adminprofileinfo .table-box .table-row{
+  display: table;
+  width: 80%;
+ border: 1px solid #2F323A;
+  background: transparent;
+  padding: 10px 0;
+  color: #555;
+  font-size: 13px;
+  
+}
+.wrapper .main-container .adminprofile .adminprofileinfo .table-box .table-row .table-cell{
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+  padding: 4px 0;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.wrapper .main-container .adminprofile .adminprofileedit span{
+  background: #000;
+  color: #fff;
+  display: block;
+  
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  transition-property: background, color;
+  margin-left: 590px;
+}
+.wrapper .main-container .adminprofile .adminprofileedit span:hover{
+  background: #fff;
+  color: #36a2b8;
+  border: 4px solid #36a2b8;
+}
