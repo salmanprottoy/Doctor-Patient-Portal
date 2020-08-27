@@ -45,7 +45,7 @@
 							<i class="fas fa-user-circle"></i><span>Profile<i class="fas fa-chevron-down drop-down"></i></span>
 						</a>
 						<div class="sub-menu">
-							<a href="#"><i class="fas fa-address-card"></i><span>Info</span></a>
+							<a href=""><i class="fas fa-address-card"></i><span>Info</span></a>
 							<a href="#"><i class="fas fa-key"></i><span>Password</span></a>
 						</div>
 					</li>
