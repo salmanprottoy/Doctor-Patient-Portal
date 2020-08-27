@@ -8,7 +8,7 @@
 }
 
 body{
-  background: rgb(168, 8, 8);
+  background: rgb(175, 175, 175);
 }
 
 .wrapper .header{
@@ -30,16 +30,11 @@ body{
   padding: 0 20px;
 }
 
-.wrapper .header .header-menu .title{
-  color: #fff;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 900;
+.wrapper .header .header-menu .logo img{
+  height: 70px;
 }
 
-.wrapper .header .header-menu .title span{
-  color: #4CCEE8;
-}
+
 
 .wrapper .header .header-menu .sidebar-btn{
   color: #fff;
@@ -118,7 +113,7 @@ body{
   display: block;
   color: #fff;
   position: relative;
-  padding: 25px 20px;
+  padding: 15px 20px;
   transition: 0.3s;
   transition-property: color;
 }
@@ -151,7 +146,7 @@ body{
   color: #fff;
   white-space: nowrap;
   font-size: 15px;
-  padding: 20px;
+  padding: 10px;
   transition: 0.3s;
   transition-property: background;
 }
@@ -159,7 +154,9 @@ body{
 .wrapper .sidebar .sidebar-menu .item .sub-menu a:hover{
   background: #55B1F0;
 }
-
+.wrapper .sidebar ul li a.active{
+  background: aqua;
+}
 .wrapper .sidebar .sidebar-menu .item .sub-menu a:not(last-child){
   border-bottom: 1px solid #8FC5E9;
 }
@@ -213,4 +210,19 @@ body{
   padding: 15px;
   margin-bottom: 10px;
   font-size: 14px;
+}
+
+.wrapper .main-container .welcome {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 450px;
+}
+.wrapper .main-container .welcome img{
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
