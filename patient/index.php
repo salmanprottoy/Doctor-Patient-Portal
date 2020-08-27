@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>Admin Portal</title>
+		<title>Patient Portal</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
@@ -30,8 +30,8 @@
 			<div class="sidebar">
 				<div class="sidebar-menu">
 					<center class="profile">
-						<img src="admin.png" alt="">
-						<p>Admin</p>
+						<img src="patient.png" alt="">
+						<p>Patient</p>
 					</center>
 					<li class="item">
 						<a href="#" class="menu-btn">
@@ -50,21 +50,6 @@
 					<li class="item" id="appointment">
 						<a href="#appointment" class="menu-btn">
 							<i class="fas fa-calendar"></i><span>Appointment</span>
-						</a>
-					</li>
-					<li class="item" id="doctor">
-						<a href="#doctor" class="menu-btn">
-							<i class="fas fa-user-md"></i><span>Doctor</span>
-						</a>
-					</li>
-					<li class="item" id="patient">
-						<a href="#patient" class="menu-btn">
-						<i class="fa fa-user-plus" aria-hidden="true""></i><span>Patient</span>
-						</a>
-					</li>
-					<li class="item">
-						<a href="#" class="menu-btn">
-							<i class="fas fa-user"></i><span>Helpline Assistant</span>
 						</a>
 					</li>
 					<li class="item">
