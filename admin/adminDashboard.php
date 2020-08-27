@@ -1,5 +1,4 @@
-<?php include("index.php");?>
-
+<?php include("index.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +9,7 @@
 </head>
 <body>
     <div class="wrapper">
+
     
     <div class="main-container">
 				<!--<div class="card">
@@ -30,6 +30,10 @@
         <img src="images/ronaldo.jpg" alt="">
         <h2>Welcome <span>King</span></h2>
     </div>
+
+    	<div class="main-container">
+		</div>
+
     </div>
 </body>
 </html>

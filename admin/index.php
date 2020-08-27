@@ -16,7 +16,11 @@
 			<!--header menu start-->
 			<div class="header">
 				<div class="header-menu">
+
 					<div class="logo"><img src="images/logo1.png" alt=""></div>
+
+					<div class="logo"><img src="logo.png" alt="" width="170" height="150"></div>
+
 					<div class="sidebar-btn">
 						<i class="fas fa-bars"></i>
 					</div>
@@ -32,18 +36,19 @@
 			<div class="sidebar">
 				<div class="sidebar-menu">
 					<center class="profile">
-						<img src="1.jpg" alt="">
-						<p>Jessica</p>
+						<img src="admin.png" alt="">
+						<p>Admin</p>
 					</center>
 					<li class="item">
-						<a href="#" class="menu-btn">
-							<i class="fas fa-desktop"></i><span>Dashboard</span>
+						<a href="#profile" class="menu-btn">
+							<i class="fas fa-user-circle"></i><span>Profile</span>
 						</a>
 					</li>
-					<li class="item" id="profile">
-						<a href="#profile" class="menu-btn">
-							<i class="fas fa-user-circle"></i><span>Profile <i class="fas fa-chevron-down drop-down"></i></span>
+					<li class="item">
+						<a href="#appointment" class="menu-btn">
+							<i class="fa fa-list-alt" aria-hidden="true"></i><span>Appointments</span>
 						</a>
+
 						<div class="sub-menu">
 							<a href="#"><i class="fas fa-address-card"></i><span>Info</span></a>
 							<a href="#"><i class="fas fa-key"></i><span>Password</span></a>
@@ -87,28 +92,38 @@
 						<a href="#" class="menu-btn">
 							<i class="fas fa-tint"></i><span>Organ Donation</span>
 						</a>
+
 					</li>
-					<li class="item">
-						<a href="#" class="menu-btn">
-							<i class="fas fa-info-circle"></i><span>About</span>
+					<li class="item" id="doctor">
+						<a href="#doctor" class="menu-btn">
+							<i class="fa fa-user-md" aria-hidden="true"></i><span>Doctor <i class="fas fa-chevron-down drop-down"></i></span>
 						</a>
+						<div class="sub-menu">
+							<a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i><span>Add Doctor</span></a>
+							<a href="#"><i class="fas fa-address-card"></i><span>Doctor List</span></a>
+						</div>
+					</li>
+					<li class="item" id="patient">
+						<a href="#patient" class="menu-btn">
+							<i class="fa fa-user" aria-hidden="true"></i><span>Patient <i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i><span>Add Patient</span></a>
+							<a href="#"><i class="fas fa-address-card"></i><span>Patient List</span></a>
+						</div>
+
+					</li>
+					<li class="item" id="donor">
+						<a href="#donor" class="menu-btn">
+							<i class="fa fa-user-secret" aria-hidden="true"></i><span>Donor <i class="fas fa-chevron-down drop-down"></i></span>
+						</a>
+						<div class="sub-menu">
+							<a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i><span>Add Donor</span></a>
+							<a href="#"><i class="fas fa-address-card"></i><span>Donor List</span></a>
+						</div>
 					</li>
 				</div>
 			</div>
-			<!--sidebar end-->
-			<!--main container start-->
-			<!--<div class="main-container">
-				<div class="card">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				</div>
-				<div class="card">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				</div>
-				<div class="card">
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-				</div>
-			</div>-->
-			<!--main container end-->
 		</div>
 		<!--wrapper end-->
 

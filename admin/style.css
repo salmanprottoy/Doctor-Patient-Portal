@@ -8,12 +8,22 @@
 }
 
 body{
+
   background: rgb(175, 175, 175);
+
+  background: rgb(255, 255, 255);
+}
+
+.logo{
+  margin: 0;
+  padding: 0;
+  position: relative;
+
 }
 
 .wrapper .header{
   z-index: 1;
-  background: #22242A;
+  background: #00bfa6;
   position: fixed;
   width: calc(100% - 0%);
   height: 70px;
@@ -36,6 +46,12 @@ body{
 
 
 
+
+.wrapper .header .header-menu .title span{
+  color: #00bfa6;
+}
+
+
 .wrapper .header .header-menu .sidebar-btn{
   color: #fff;
   position: absolute;
@@ -48,7 +64,7 @@ body{
 }
 
 .wrapper .header .header-menu .sidebar-btn:hover{
-  color: #4CCEE8;
+  color: #078574;
 }
 
 .wrapper .header .header-menu ul{
@@ -57,7 +73,7 @@ body{
 
 .wrapper .header .header-menu ul li a{
   background: #fff;
-  color: #000;
+  color: #4acab9;
   display: block;
   margin: 0 10px;
   font-size: 18px;
@@ -71,13 +87,13 @@ body{
 }
 
 .wrapper .header .header-menu ul li a:hover{
-  background: #4CCEE8;
+  background: #078574;
   color: #fff;
 }
 
 .wrapper .sidebar{
   z-index: 1;
-  background: #2F323A;
+  background: #12d8be;
   position: fixed;
   top: 70px;
   width: 250px;
@@ -99,7 +115,7 @@ body{
 }
 
 .wrapper .sidebar .sidebar-menu .profile p{
-  color: #bbb;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -119,7 +135,7 @@ body{
 }
 
 .wrapper .sidebar .sidebar-menu .item .menu-btn:hover{
-  color: #4CCEE8;
+  color: #078574;
 }
 
 .wrapper .sidebar .sidebar-menu .item .menu-btn i{
@@ -133,7 +149,7 @@ body{
 }
 
 .wrapper .sidebar .sidebar-menu .item .sub-menu{
-  background: #3498DB;
+  background: #0fa894;
   overflow: hidden;
   max-height: 0;
   transition: 0.3s;
@@ -152,7 +168,7 @@ body{
 }
 
 .wrapper .sidebar .sidebar-menu .item .sub-menu a:hover{
-  background: #55B1F0;
+  background: #078574;
 }
 .wrapper .sidebar ul li a.active{
   background: aqua;
@@ -175,9 +191,6 @@ body{
   margin-top: 70px;
   margin-left: 250px;
   padding: 15px;
-  /*background: #bbb;/*url(background.jpg)no-repeat;
-  background-size: cover;
-  height: 100vh;*/
   transition: 0.3s;
 }
 
