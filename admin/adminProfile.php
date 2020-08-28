@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="adminprofileedit">
-                        <a href="#modal" class="editadminprofile"><span class="material-icons">
+                        <a href="#modal" class="editadminprofile" data-tooltip="Edit Profile"><span class="material-icons">
 create
 </span></a>
                     </div>
@@ -123,7 +123,7 @@ create
                                     <div class="table-cell">
                                         <p>Gender</p>
                                     </div>
-                                    <div class="table-cell">
+                                    <div class="tablecell">
                                     <input type="radio" class="radio" name="gender" value="Male" > Male
                                     <input type="radio" name="gender" class="radio" value="Female" > Female
                                     <input type="radio" class="radio" name="gender" value="Others" > Others
@@ -139,7 +139,7 @@ create
                                     </div>
                                     <div class="table-row">
                                     <div class="table-cell">
-                                        <p>Blooad Group</p>
+                                        <p>Blood Group</p>
                                     </div>
                                     <div class="table-cell">
                                     <select name="bloodgroup" id="" class="blood-group">
@@ -180,7 +180,7 @@ create
                                     </div>
                                     </div>
                                 </div>
-                                <a href="#"><input type="button" name="submit" value="Submit" class="submit"> </a>
+                                <a href="#"><input class="submit" type="button" name="submit" value="Submit" class="submit"> </a>
                             </form>
                         </div>  
                 </div>

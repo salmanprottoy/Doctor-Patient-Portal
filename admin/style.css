@@ -321,17 +321,17 @@ body{
 .wrapper .main-container .adminprofile .modal-container{
   width: auto;
   height: auto;
-  position: fixed;
+  position: absolute;
   opacity: 0;
   pointer-events: none;
   background-color: #008876;
   border-radius: 3%;
   transition: all 500ms ease;
+  margin-left: 250px;
 }
 .wrapper .main-container .adminprofile .modal-container:target{
   opacity: 1;
   pointer-events: auto;
-  
 }
 .wrapper .main-container .adminprofile .modal-container .modal{
   width: 500px;
@@ -346,7 +346,7 @@ body{
   transform: translate(0px , 0px);
 }
 .wrapper .main-container .adminprofile .modal-container .modal .table-box{
-  margin: 30px auto;
+  margin: 10px auto;
  
 }
 .wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row{
@@ -387,11 +387,59 @@ body{
 .wrapper .main-container .adminprofile .modal-container .modal .modal-heading{
   width: 100%;
   display: block;
-  height: 50px;
+  height: 40px;
   
   color: #14c8b0;
 
   text-align: center;
   font-size: 20pt;
   border-bottom: 2px solid #14c8b0;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .table-cell input{
+  height: 25px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .table-cell p{
+  height: 25px;
+  width: 100px;
+  text-align: end;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .table-cell textarea{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .tablecell{
+height: 25px;
+width: 250px; 
+text-align: center;
+
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .table-cell .blood-group{
+  height: 25px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .submit{
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: #14c8b0;
+  margin-bottom: 20px;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .submit:hover{
+  border: 2px solid #14c8b0;
+  color: #14c8b0;
+  background: #fff;
 }
