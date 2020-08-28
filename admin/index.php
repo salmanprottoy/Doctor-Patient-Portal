@@ -39,7 +39,7 @@
 
 						<a href="adminDashboard.php" class="menu-btn">
 
-						<a href="#" class="menu-btn">
+						
 
 							<i class="fas fa-desktop"></i><span>Dashboard</span>
 						</a>
