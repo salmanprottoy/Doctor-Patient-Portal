@@ -108,9 +108,9 @@ body{
 }
 
 .wrapper .sidebar .sidebar-menu .profile img{
-  margin: 20px 0;
-  width: 100px;
-  height: 100px;
+  margin: 10px 0;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
@@ -275,7 +275,7 @@ body{
   width: auto;
 }
 .wrapper .main-container .adminprofile .adminprofileinfo .table-box{
-  margin: 50px auto;
+  margin: 30px auto;
  
 }
 .wrapper .main-container .adminprofile .adminprofileinfo .table-box .table-row{
@@ -298,22 +298,100 @@ body{
 }
 
 .wrapper .main-container .adminprofile .adminprofileedit span{
-  background: #000;
+  background: #078574;
   color: #fff;
   display: block;
-  
-  font-size: 30px;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  position: relative;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   border-radius: 50%;
   transition: 0.3s;
-  transition-property: background, color;
   margin-left: 590px;
 }
 .wrapper .main-container .adminprofile .adminprofileedit span:hover{
   background: #fff;
-  color: #36a2b8;
-  border: 4px solid #36a2b8;
+  color: #00bfa6;
+  border: 4px solid #00bfa6;
+}
+
+/*-------Modal--------------*/
+.wrapper .main-container .adminprofile .modal-container{
+  width: auto;
+  height: auto;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  background-color: #008876;
+  border-radius: 3%;
+  transition: all 500ms ease;
+}
+.wrapper .main-container .adminprofile .modal-container:target{
+  opacity: 1;
+  pointer-events: auto;
+  
+}
+.wrapper .main-container .adminprofile .modal-container .modal{
+  width: 500px;
+  
+  margin-top: 20px;
+}
+.wrapper .main-container .adminprofile .modal-container > div {
+  transform: translate(0px , -100px);
+  transition: all 500ms ease;
+}
+.wrapper .main-container .adminprofile .modal-container:target > div{
+  transform: translate(0px , 0px);
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box{
+  margin: 30px auto;
+ 
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row{
+  display: table;
+  width: 80%;
+ 
+  background: transparent;
+  padding: 5px 0;
+  color: #ffffff;
+  font-size: 13px;
+  
+}
+.wrapper .main-container .adminprofile .modal-container .modal .table-box .table-row .table-cell{
+  display: table-cell;
+  width: 50%;
+  text-align: center;
+  padding: 4px 0;
+  
+  font-weight: bold;
+  vertical-align: middle;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .close{
+  color: white;
+  position: absolute;
+  
+  
+  background: #078574;
+  text-decoration: none;
+  top: -10px;
+  right: -5px;
+  border-radius: 50%;
+  transition: background 500ms;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .close:hover{
+  color: wheat;
+  cursor: pointer;
+}
+.wrapper .main-container .adminprofile .modal-container .modal .modal-heading{
+  width: 100%;
+  display: block;
+  height: 50px;
+  
+  color: #14c8b0;
+
+  text-align: center;
+  font-size: 20pt;
+  border-bottom: 2px solid #14c8b0;
 }
