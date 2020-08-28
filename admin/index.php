@@ -52,7 +52,7 @@
 
 							<a href="adminProfile.php"><i class="fas fa-address-card"></i><span>Info</span></a>
 
-							<a href=""><i class="fas fa-address-card"></i><span>Info</span></a>
+							
 
 							<a href="#"><i class="fas fa-key"></i><span>Password</span></a>
 						</div>
@@ -72,16 +72,7 @@
 						<i class="fa fa-user-plus" aria-hidden="true""></i><span>Patient</span>
 						</a>
 					</li>
-					<li class="item" id="messages">
-						<a href="#messages" class="menu-btn">
-						<i class="material-icons">airline_seat_individual_suite</i><span> Patient<!--<i class="fas fa-chevron-down drop-down"></i>--></span>
-						</a>
-						<!--<div class="sub-menu">
-							<a href="#"><i class="fas fa-envelope"></i><span>New</span></a>
-							<a href="#"><i class="fas fa-envelope-square"></i><span>Sent</span></a>
-							<a href="#"><i class="fas fa-exclamation-circle"></i><span>Spam</span></a>
-						</div>-->
-					</li>
+					
 					<li class="item">
 						<a href="#" class="menu-btn">
 							<i class="fas fa-user"></i><span>Helpline Assistant</span>
