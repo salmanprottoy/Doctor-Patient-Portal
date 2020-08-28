@@ -36,7 +36,11 @@
 						<p>Admin</p>
 					</center>
 					<li class="item">
+
+						<a href="adminDashboard.php" class="menu-btn">
+
 						<a href="#" class="menu-btn">
+
 							<i class="fas fa-desktop"></i><span>Dashboard</span>
 						</a>
 					</li>
@@ -45,7 +49,11 @@
 							<i class="fas fa-user-circle"></i><span>Profile<i class="fas fa-chevron-down drop-down"></i></span>
 						</a>
 						<div class="sub-menu">
+
+							<a href="adminProfile.php"><i class="fas fa-address-card"></i><span>Info</span></a>
+
 							<a href=""><i class="fas fa-address-card"></i><span>Info</span></a>
+
 							<a href="#"><i class="fas fa-key"></i><span>Password</span></a>
 						</div>
 					</li>
